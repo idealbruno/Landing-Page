@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt=BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-section {
+   padding: 100px;
+   background-color: aliceblue;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.section-content img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.text-content {
+    max-width: 500px;
+}
+
+.text-content h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #0e0d0d;
+}
+
+.text-content span {
+    color: rgb(71, 237, 11);
+    font-size: 2rem;
+    font-weight: 900;
+}
+.text-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.section-content h2{
+    font-size: 30px;
+    color: #0e0d0d;
+    margin-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+}
+@media (max-width: 800px) {
+  .about-section {
+    padding: 40px 20px;
+  }
+
+  .about-section .section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .about-section .section-content img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .about-section .text-content {
+    width: 100%;
+  }
+
+  .about-section .text-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-section .text-content h1 {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    margin: 15px 0;
+  }
+
+  .about-section .text-content p {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 15px;
+  }
+}
+
+  </style>
+  <body>
+    <section id="Sobre" class="about-section">
+      <div class="section-content">
+        <img
+          src="https://www.positivoempresas.com.br/wp-content/uploads/2024/09/ContentImage2.jpg"
+          alt="Pessoas sorrindo"
+        />
+        <div class="text-content">
+          <h2>Sobre <span>Nós</span></h2>
+          <h1>
+            Há mais de 35 anos, construindo soluções tecnológicas para negócios de
+            todos os tamanhos
+          </h1>
+          <p>Com mais de três décadas de atuação no mercado, a Positivo Empresas entrega soluções completas de tecnologia para organizações públicas e privadas em todo o Brasil e no exterior.</p><br>
+          <p>Combinando capacidade industrial, inovação contínua e expertise em serviços de TI, a empresa apoia a transformação digital de negócios de todos os portes e setores.</p><br>
+          <p>De infraestrutura de TI a dispositivos inteligentes, de outsourcing a segurança eletrônica, a Positivo Empresas atua como um parceiro estratégico na construção de ambientes tecnológicos de alta performance e eficiência.</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
