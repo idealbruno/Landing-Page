@@ -6,12 +6,6 @@ Uma Landing Page moderna e responsiva desenvolvida para praticar conceitos de de
 
 🌐 **Projeto Online:** https://idealbruno.github.io/Landing-Page/
 
-<p align="center">
-  <img src="<img width="1890" height="857" alt="Captura de tela 2026-06-26 111608" src="https://github.com/user-attachments/assets/3765442f-bd3d-4674-8ac4-456a97784b2f" />
-" alt="Preview do Projeto" width="700">
-</p>
-![Preview do Projeto](assets/img/preview.png)
-```
 
 ---
 
