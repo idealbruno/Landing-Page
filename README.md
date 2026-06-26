@@ -6,10 +6,9 @@ Uma Landing Page moderna e responsiva desenvolvida para praticar conceitos de de
 
 🌐 **Projeto Online:** https://idealbruno.github.io/Landing-Page/
 
-> *Adicione um print da página na pasta do projeto (ex.: `<img width="1890" height="857" alt="Captura de tela 2026-06-26 111608" src="https://github.com/user-attachments/assets/ab754e8b-aaa4-4ff1-a4d4-cff235ca9311" />
-`) e utilize:*
-
-```md
+<p align="center">
+  <img src="images/preview.png" alt="Preview do Projeto" width="700">
+</p>
 ![Preview do Projeto](assets/img/preview.png)
 ```
 
